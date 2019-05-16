@@ -14,6 +14,6 @@ A Desktop Application Developed in java with javaFx and JDBC
     6. result(userid varchar,score varchar)
     
 3.Insert master password for admin
-
+4.Do not forgot to put your email and password in sendmail scripts.
 
 ***************************************************
