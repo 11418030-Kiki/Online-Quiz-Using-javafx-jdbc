@@ -67,10 +67,10 @@ public class SendResultController {
 
 				      
 				            String host ="smtp.gmail.com" ;
-				            String user = "powerofyou111@gmail.com";
-				            String pass = "9928669256";
+				            String user = "yourmail";
+				            String pass = "password";
 				            String to = resultSet.getString("userid");
-				            String from = "powerofyou111@gmail.com";
+				            String from = "yourmail";
 				            String subject = subjectText.getText().toString();
 				            String messageText = bodyText.getText().toString() + "\n You scored : " + resultSet.getString("score");
 				            boolean sessionDebug = false;
